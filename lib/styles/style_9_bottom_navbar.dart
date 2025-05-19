@@ -65,7 +65,7 @@ class Style9BottomNavBar extends StatelessWidget {
                 item.title ?? '',
                 style: item.textStyle.apply(
                   color: Color(0xffE8C85A),
-                ).copyWith(height: -1),
+                ).copyWith(height: -0.5),
               ),
             ),
           ),
