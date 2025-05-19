@@ -64,9 +64,7 @@ class Style9BottomNavBar extends StatelessWidget {
               child: Text(
                 item.title ?? '',
                 style: item.textStyle.apply(
-                  color: isSelected
-                      ? item.activeForegroundColor
-                      : item.inactiveForegroundColor,
+                  color: Color(0xffE8C85A),
                 ).copyWith(height: -1),
               ),
             ),
